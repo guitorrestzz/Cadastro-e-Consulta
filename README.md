@@ -29,8 +29,8 @@ Este projeto é um sistema web simples para **cadastro e consulta de usuários**
 
 ---
 
-![Página Inicial](images/homepage.png)
+![Página Inicial](images_cadastro/inicio.png)
 
-![Tela de Cadastro](images/cadastro.png)
+![Tela de Cadastro](images_cadastro/cadastro.png)
 
-![Tela de Consulta](images/consulta.png)
+![Tela de Consulta](images_cadastro/consulta.png)
