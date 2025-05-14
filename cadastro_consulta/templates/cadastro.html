@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Simples</title>
+    <link rel="stylesheet" href="/static/styles/estilo.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/cadastro">Cadastro</a></li>
+            <li><a href="/consulta">Consulta Pessoas</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Cadastro de Pessoa</h2>
+        <form action="/cadastro" method="post">
+
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" placeholder="Digite seu nome">
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" placeholder="Digite seu e-mail">
+            </div>
+            
+            <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" placeholder="Digite seu telefone">
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
